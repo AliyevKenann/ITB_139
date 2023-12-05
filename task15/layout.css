@@ -5,6 +5,7 @@
 }
 .row{
     display: flex;
+    position: relative;
 }
 .d-flex{
     display: flex;
