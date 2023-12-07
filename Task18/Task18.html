@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarix</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .carousel {
+      height: 100vh;
+    }
+
+    .img {
+      margin-top: 200px;
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+    }
+
+    .hr {
+      margin: 5rem 0;
+      border-top: 1px solid rgba(0, 0, 0, 0.607);
+    }
+
+    .h2-header {
+      font-weight: 400;
+      font-size: 50px;
+      line-height: 1;
+      letter-spacing: -.05rem;
+    }
+
+    .lead {
+      font-size: 1.25rem;
+      font-weight: 300px;
+    }
+
+    .img2 {
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-dark bg-gradient .text-body-tertiary navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Carousel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Flag_of_Ottoman_Empire_%281517-1793%29.svg"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Osmanlı İmparatorluğu Bayrağı</h5>
+          <p>Osmanlı İmparatorluğu. Güneydoğu Avrupa, Güneybatı Asya ve Kuzey Afrika'da hüküm sürmüş eski bir
+            imparatorlu</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Safavid_Flag.svg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Safevî İmparatorluğu</h5>
+          <p>Safevîler veya Safevî Devleti,1501 ve 1736 yılları arasında varlığını sürdürmüş</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Mameluke_Flag.svg" class="d-block w-100"
+          alt="...">
+        <div class="carousel-caption d-none d-md-block ">
+          <h5>Memlûk Devleti</h5>
+          <p>Memlûk Devleti, Eyyûbîlerin çöküşü ile Osmanlı İmparatorluğu'nun Mısır'ı ele geçirmesi arasında geçen üç
+            yüzyıla yakın zaman diliminde Mısır ve Suriye'de hüküm sürmüş olan devlet</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 text-center justify-content-center">
+        <img class="img" src="https://www.worldhistory.org/uploads/images/11467.png?v=1693278304" alt="">
+        <h4>Osman Gazi</h4>
+        <p> Osmanlı Beyliği ve Osmanlı Hanedanı'nın kurucusu ve beyliğin ilk padişahı olan Türk hükümdar ve komutandır.
+          Yaşadığı dönemde liderliğini yaptığı beylik başlangıçta küçük bir Türk beyliği iken, ölümünden sonraki
+          yüzyıllarda büyük bir imparatorluğa dönüştü.
+          babası Ertuğrul Gazi ve annesi Halime Hatun'dur</p>
+      </div>
+      <div class="col-lg-4 col-md-6 text-center justify-content-center">
+        <img class="img" src="http://tarixinstitutu.az/Web/uploads/personalities/70/70_0.jpg" alt="">
+        <h4>Şah İsmayıl Xətai </h4>
+        <p> Şah İsmayıl Xətai, Səfəvi 1487-ci il iyulun 17-də nüfuzlu azərbaycanlı ailəsində anadan olmuşdur. O, ata
+          tərəfdən
+          Şeyx Səfiəddin nəslindən idi. Şah İsmayılın atası Şeyx Heydər, babası Şeyx Cüneyd olmuşdur. Onun anası Aləmşah
+          bəyim Ağqoyunlu hökmdarı Uzun Həsənin qızı, Sultan Yaqubun bacısı idi.</p>
+      </div>
+      <div class="col-lg-4 col-md-6 text-center justify-content-center">
+        <img class="img" src="http://www.turkosfer.com/wp-content/uploads/2015/11/Baybars.jpg" alt="">
+        <h4>Baybars</h4>
+        <p>Baybars Karadeniz’in kuzeyinde doğmuş bir Kıpçak Türküdür. 1223 yılında doğmuştur. Altın Ordu Hakanı ve
+          Cengiz Han’ın torunu Berke Han’ın damadı idi. Kendi yerine geçecek oğluna da Berke adını vermişti. Rivayete
+          göre Moğollar tarafından Kıpçak steplerinde yakalanmış ve esir olarak Bizans tüccarlarına satılmıştır. Köle
+          olarak Kahire’ye getirilmiş, Eyyubiler’in hassa ordusuna alınmıştı.</p>
+      </div>
+      <hr class="hr">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h2 class="h2-header ">II. Mehmed
+            <div class="text-muted">(Fatih Sultan Mehmed)</div>
+          </h2>
+          <p class="lead">II. Mehmed, 30 Mart 1432 tarihinde Edirne'de doğdu. Babası altıncı Osmanlı padişahı II. Murad,
+            annesi ise Hüma Hatun'dur. Küçük yaşta tahsiline ve yetişmesine çok önem verilen Şehzade Mehmed, devrin en
+            üstün âlimlerinden eğitim gördü.1451'den 1481 yılındaki ölümüne kadar 30 yıl boyunca hüküm sürdü. 29 Mayıs
+            1453 tarihinde İstanbul'u fethetti,ve Osmanli devletini İmparatorluğ yapdi.1058 yıllık Doğu Roma (Bizans)
+            İmparatorluğu'nu yıktı ve fetihten sonra
+            "Fâtih" unvanıyla anılmaya başladı. Bu olay, birçok uzman kişi tarafından Orta Çağ'ın sonu ve Yeni Çağ'ın
+            başlangıcına neden olan tarihî olaylardan biri olarak görülmektedir. Ayrıca bu vesileyle İslam peygamberi
+            Muhammed'in konuyla ilgili "Konstantiniyye elbet fetholunacaktır. Onu fetheden komutan ne güzel komutan, onu
+            fetheden ordu ne güzel ordudur.Hadisine nâil olduğu için günümüzde Müslüman dünyasının bir kesiminde
+            "kahraman" olarak görülmektedir.</p>
+        </div>
+        <div class="col-lg-6">
+          <img class="img2" src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Gentile_Bellini_003.jpg" alt="">
+        </div>
+      </div>
+      <hr class="hr">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <img class="img2"
+            src="https://upload.wikimedia.org/wikipedia/commons/2/2e/ShahAbbasPortraitFromItalianPainter.jpg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="h2-header ">I. Abbas
+            <div class="text-muted">(Böyük Şah Abbas )</div>
+          </h2>
+          <p class="lead">Səfəvi imperiyasının V şahı və ən böyük Səfəvi şahlarından biri. O, Şah Məhəmməd Xudabəndənin
+            üçüncü oğludur.[3]
+
+            Şah Abbasın Səfəvi imperiyasının hərbi, iqtisadi və siyasi baxımdan zirvədə olduğu dövrü formalaşdırmasına
+            baxmayaraq, o, hakimiyyətə imperiyanın ən çətin zamanlarından birində gəlmişdi. Atası olan Şah Məhəmməd
+            Xudabəndənin hakimiyyəti dövrü özbaşınalıq dövrü kimi xarakterizə oluna bilər. Mərkəzi hakimiyyətin
+            zəifliyindən istifadə edən müxtəlif Qızılbaş tayfa əyanları şəxsi mənafeləri uğrunda mübarizəyə başlamış,
+            həmçinin qeyri-türk olduğu və dövlət məsələlərinə çox müdaxilə etdiyi üçün I Abbasın anası Məhdi Ülyanı da
+            öldürmüşlərdi. Həmçinin I Abbasın qardaşı və əsas vəliəhd hesab edilən Həmzə Mirzə də Osmanlı ilə müharibə
+            dövründə sui-qəsqlə qətlə yetirilmişdir. Səfəvi imperiyasının əsas rəqibləri olan Osmanlı imperiyası və
+            özbəklər imperiyanın qərb və şərq sərhədlərini ələ keçirmək və ya mütəmadi oraya yürüşlər həyata keçirməklə
+            bu qarışıqlığı daha da çətinləşdirirdilər. 1587-ci ildə Qızılbaş sərkərdələrindən biri olan Mürşüdqulu xan
+            Ustaclı bacarıqsız hesab edilən Məhəmməd Xudabəndəni 16 yaşlı şahzadə olan Abbasla əvəz etdi. 16 yaşında
+            taxta çıxan Abbas Mirzə tezliklə bütün hakimiyyəti öz əlinə aldı.Onun rəhbərliyi altında Səfəvi
+            impreriyasında çərkəzlərdən, gürcülərdən, ermənilərdən formalaşan qulam, yəni kölə-əsgərlər sistemi inkişaf
+            etdirildi və hərbi, mülki inzibati sistemə inteqrasiya etdirildi. Ondan əvvəlki sələfləri tərəfindən
+            yaradılmış, lakin onun dövründə inkişa etdirilmiş bu sistem sayəsində I Abbas ona tabe olmaq istəməyən
+            Qızılbaş tayfa başçılarının güclərini azaldacağını planlamışdı.</p>
+        </div>
+      </div>
+      <hr class="hr">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h2 class="h2-header ">I. Baybars
+            <div class="text-muted">(el-Melikü’z-Zâhir Rüknüddîn Baybars el-Bundukdârî)</div>
+          </h2>
+          <p class="lead"> Mısır ve Suriye'de hüküm sürmüş Kıpçak asıllı Memlûk Devleti sultanıdır.[1] Baybars,
+            muhtemelen 15 yaşında köle olarak satın alınıp bir memlûk olarak yetiştirilmiş, yeteneği sayesinde hızla
+            terfi ederek emirliğe kadar yükselmiştir. Mansure Muharebesi ve Ayn Calut Muharebesi’ni başarılı sevk ve
+            idaresiyle bu muharebelerin kazanılmasında başrol oynamış ve ün kazanmıştır. Mısır Eyyûbî sultanı Turanşah’ı
+            bir suikastla öldürmesinden sonra Kutuz sultan olmuş, Baybars çeşitli nedenlerle onu da öldürerek Memluk
+            Sultanlığı hükümdarı olmuştur. Devletin gerçek anlamda kurucusu olarak kabul edilir. Pek çok Haçlı kalesini
+            ve kentini ele geçirmiş, Levant’daki Haçlı varlığını birkaç sahil kentine kadar daraltmış, İlhanlılar’ın
+            Kuzey Suriye’deki varlığına son vermiştir. Anadolu Selçuklu Devleti’ni İlhanlı işgalinden kurtarmak için
+            Anadolu’ya bir sefer düzenlemiş olmasına rağmen Anadolu Selçuklu yöneticilerinden vadedilen desteği
+            göremeyince ülkesine geri dönmüştür.</p>
+        </div>
+        <div class="col-lg-6">
+          <img class="img2" src="http://www.turkosfer.com/wp-content/uploads/2015/11/Baybars.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
