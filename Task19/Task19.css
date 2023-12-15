@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 85%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 13px;
+    background: linear-gradient(270deg, rgba(46, 49, 146, 0.70) 0%, rgba(212, 20, 90, 0.70) 98.16%);
+}
+
+.logo {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 9.5px;
+    margin-right: 10px;
+
+}
+
+.sredniy {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 9.5px;
+    margin-right: 20px;
+}
+
+.konec {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 9.5px;
+    margin-right: 200px;
+}
+
+.foto1 {
+    width: 100px;
+    height: 60px;
+    margin-top: 10px;
+    background: url(./image/Vector.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.EVARUGS {
+    margin-top: 18px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.ucler {
+    margin-top: 20px;
+    position: absolute;
+    right: 100px;
+}
+
+.otmen {
+    margin: 10px;
+    color: #737373;
+}
+
+.inno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    position: absolute;
+    left: 10%;
+    top: 35%;
+}
+
+.inno2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    position: absolute;
+    left: 10%;
+    top: 46%;
+}
+
+.btn {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    background: linear-gradient(95deg, #B90160 2.23%, #2E3192 99.51%);
+}
+
+.tip {
+    width: 15px;
+    height: 15px;
+    background: url(./image/Frame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
+
+.tip2 {
+    width: 45px;
+    height: 40px;
+    background: url(./image/Frame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 21%;
+    top: 30%;
+}
+
+.tip3 {
+    width: 45px;
+    height: 40px;
+    background: url(./image/Frame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 10%;
+    top: 60%;
+}
+
+.tip4 {
+    width: 55px;
+    height: 55px;
+    background: url(./image/Frame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 8%;
+    top: 63%;
+}
+.tipbash{
+    position: relative;
+}
+.tip5 {
+    width: 745px;
+    height: 522px;
+    background: url(./image/подложка\ 1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 100px;
+}
+.tip6 {
+    width: 545px;
+    height: 722px;
+    background: url(./image/коврф\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -50px;
+    right: 150px;
+}
+.container2{
+    width: 85%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
