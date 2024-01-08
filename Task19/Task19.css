@@ -173,3 +173,7 @@ nav {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+ul{
+    list-style: none;
+}
