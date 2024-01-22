@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.navbar{
+    background-color: #000;
+}
+.log{
+    color: #FFF;
+    width: 27px;
+    height: 27px;
+}
+.DAMIEN{
+    color: #FFF; 
+}
+.ul{
+    color: #FFF;
+    /* background: #131316; */
+    list-style: none;
+    padding: 30px 50px;
+    align-items: center;
+    gap: 10px;
+}
+li{
+    border-radius: 1px solid #fff;
+}
+
+.btn{
+    background:#2F2F37;
+    color: var(--Absolute-White, #FFF);
+    border-radius: 10px;
+    font-size: 18px;
+    weight: 70px;
+    height: 50px;
+    border: 1px solid #2F2F37;
+    padding: 12px 24px;
+    align-items: center;
+    gap: 10px;
+}

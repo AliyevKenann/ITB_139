@@ -1,0 +1,19 @@
+.Elfbar{
+    font-size: 52px;
+    padding: 25px;
+    color: #ac1818;
+}
+
+.box{
+    width: 300px;
+    border:1px solid #000;
+    color: #ac1818;
+}
+
+.img{
+    img{
+        display: block;
+        height: 300px;
+        position: relative;
+    }
+}
