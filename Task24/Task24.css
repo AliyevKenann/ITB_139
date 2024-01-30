@@ -1,0 +1,44 @@
+#wrapper{
+    width: 65%;
+    max-width: 880px;
+    margin-inline: auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,td,th{
+    border: 1px solid violet;
+    text-align: center;
+}
+
+th{
+    background-color: blueviolet;
+    color: #fff;
+}
+
+tr:nth-child(even){
+    background-color: rgb(176, 176, 176);
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: rgb(16, 198, 16);
+}
+#foto24{
+    display: none;
+    width: 100%;
+}
+input{
+    display: block;
+    margin-inline: auto;
+    margin-block: 40px;
+    box-sizing: border-box;
+    padding: 5px 30px;
+    font-size: 20px;
+}
