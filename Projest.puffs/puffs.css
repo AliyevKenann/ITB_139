@@ -1,0 +1,955 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.cont {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo2 {
+    width: 150px;
+    margin-top: 30px;
+}
+
+/* Header start */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(52, 161, 123, 0.982)
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: rgb(237, 81, 107);
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 52%;
+    height: 2px;
+    background: rgb(237, 81, 107);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#mobile {
+    display: none;
+    align-items: center;
+}
+
+#close {
+    display: none;
+}
+
+/* Home Page */
+#hero {
+    height: 100vh;
+}
+
+.cover {
+    font-size: 40px;
+    text-align: center;
+}
+
+.fotosmoking {
+    width: 100%;
+}
+
+#product1 .pro-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+#product1 {
+    text-align: center;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    ;
+}
+
+#product1 h1,
+h3 {
+    font-size: 60px;
+    color: rgb(241, 61, 163);
+}
+
+#product1 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 30px 0;
+    transition: 0.2s ease;
+
+}
+
+#product1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+
+}
+
+#product1 .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+#product1 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+
+}
+
+#product1 .pro span {
+    color: rgb(134, 210, 19);
+    font-size: 18px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    ;
+}
+
+
+#product1 .pro .des h5 {
+    padding-top: 7px;
+    color: #088178;
+    font-size: 18px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    ;
+}
+
+#product1 .pro .des i {
+    font-size: 12px;
+    color: rgb(255, 183, 0);
+}
+
+#product1 .pro .des h4 {
+    padding-top: 7px;
+    font-size: 19px;
+    font-weight: 700;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#product1 .pro .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #a21313;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #090f0a;
+
+}
+
+#product2 .pro-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+#product2 {
+    text-align: center;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    ;
+}
+
+#product2 h1,
+h4 {
+    font-size: 60px;
+    color: rgb(87, 10, 212);
+}
+
+
+#product2 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 30px 0;
+    transition: 0.2s ease;
+}
+
+#product2 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+
+}
+
+#product2 .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+#product2 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+
+}
+
+#product2 .pro span {
+    color: rgb(134, 210, 19);
+    font-size: 18px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    ;
+}
+
+
+#product2 .pro .des h5 {
+    padding-top: 7px;
+    color: #088178;
+    font-size: 18px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    ;
+}
+
+#product2 .pro .des i {
+    font-size: 12px;
+    color: rgb(255, 183, 0);
+}
+
+#product2 .pro .des h4 {
+    padding-top: 7px;
+    font-size: 19px;
+    font-weight: 700;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#product2 .pro .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #020903;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #090f0a;
+
+}
+
+
+#product3 .pro-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+#product3 {
+    text-align: center;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    ;
+}
+
+#product3 h1,
+h5 {
+    font-size: 60px;
+    color: rgb(239, 203, 44);
+}
+
+
+#product3 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 30px 0;
+    transition: 0.2s ease;
+}
+
+#product3 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+
+}
+
+#product3 .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+#product3 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+
+}
+
+#product3 .pro span {
+    color: rgb(134, 210, 19);
+    font-size: 18px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    ;
+}
+
+
+#product3 .pro .des h5 {
+    padding-top: 7px;
+    color: #088178;
+    font-size: 18px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    ;
+}
+
+#product3 .pro .des i {
+    font-size: 12px;
+    color: rgb(255, 183, 0);
+}
+
+#product3 .pro .des h4 {
+    padding-top: 7px;
+    font-size: 19px;
+    font-weight: 700;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#product3 .pro .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #020903;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #090f0a;
+
+}
+
+#product3 .pro-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+#product3 {
+    text-align: center;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    ;
+}
+
+#product3 h1,
+h5 {
+    font-size: 60px;
+    color: rgb(239, 203, 44);
+}
+
+
+#product3 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 30px 0;
+    transition: 0.2s ease;
+}
+
+#product3 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+
+}
+
+#product3 .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+#product3 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+
+}
+
+#product3 .pro span {
+    color: rgb(134, 210, 19);
+    font-size: 18px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    ;
+}
+
+
+#product3 .pro .des h5 {
+    padding-top: 7px;
+    color: #088178;
+    font-size: 18px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    ;
+}
+
+#product3 .pro .des i {
+    font-size: 12px;
+    color: rgb(255, 183, 0);
+}
+
+#product3 .pro .des h4 {
+    padding-top: 7px;
+    font-size: 19px;
+    font-weight: 700;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#product3 .pro .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #020903;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #090f0a;
+
+}
+
+
+#product3 .pro-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+#product3 {
+    text-align: center;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    ;
+}
+
+#product3 h1,
+h5 {
+    font-size: 60px;
+    color: rgb(239, 203, 44);
+}
+
+
+#product3 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 30px 0;
+    transition: 0.2s ease;
+}
+
+#product3 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+
+}
+
+#product3 .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+#product3 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+
+}
+
+#product3 .pro span {
+    color: rgb(134, 210, 19);
+    font-size: 18px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    ;
+}
+
+
+#product3 .pro .des h5 {
+    padding-top: 7px;
+    color: #088178;
+    font-size: 18px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    ;
+}
+
+#product3 .pro .des i {
+    font-size: 12px;
+    color: rgb(255, 183, 0);
+}
+
+#product3 .pro .des h4 {
+    padding-top: 7px;
+    font-size: 19px;
+    font-weight: 700;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#product3 .pro .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #020903;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #090f0a;
+
+}
+
+#product4 .pro-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+#product4 {
+    text-align: center;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    ;
+}
+
+#product4 h1,
+h5 {
+    font-size: 60px;
+    color: rgb(239, 203, 44);
+}
+
+
+#product4 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 30px 0;
+    transition: 0.2s ease;
+}
+
+#product4 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+
+}
+
+#product4 .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+#product4 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+
+}
+
+#product4 .pro span {
+    color: rgb(134, 210, 19);
+    font-size: 18px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    ;
+}
+
+
+#product4 .pro .des h5 {
+    padding-top: 7px;
+    color: #088178;
+    font-size: 18px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    ;
+}
+
+#product4 .pro .des i {
+    font-size: 12px;
+    color: rgb(255, 183, 0);
+}
+
+#product4 .pro .des h4 {
+    padding-top: 7px;
+    font-size: 19px;
+    font-weight: 700;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.qiymet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.qiymet h4 {
+    padding-top: 7px;
+    font-size: 19px;
+    font-weight: 700;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#product4 .pro .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #020903;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #090f0a;
+
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("./image.puffs/vozol10minler.webp");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 0px;
+}
+
+#banner span {
+    color: rgb(253, 142, 50);
+}
+
+#banner h2 {
+    font-size: 70px;
+}
+
+#banner p {
+    font-size: 30px;
+}
+
+#banner button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: rgb(253, 142, 50);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+#banner button:hover {
+    background-color: #088179a7;
+}
+
+
+#shekil7 img {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.ItlooksCool {
+    color: #088178;
+    text-align: center;
+    font-size: 34px;
+    padding: 20px;
+}
+
+.fotocol6 {
+    width: 90%;
+    height: 90%;
+    background-size: cover;
+    background-position: center;
+}
+
+#newletter {
+    background-color: #088178;
+    height: 50%;
+
+}
+
+.newlet {
+    padding: 20px;
+}
+
+.newstext h5 {
+    color: #fff;
+}
+
+.newstext p {
+    color: #fff;
+}
+
+.newstext p span {
+    color: #ffbd27;
+}
+
+.from input {
+    height: 3.125rem;
+    padding: 0 1.12em;
+    font-size: 14px;
+    width:80%;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    outline: none;
+}
+
+.from .btn-rs {
+    width: 20%;
+    /* height: 50px; */
+    font-size: 14px;
+}
+
+.footer {
+    background-color: #000;
+}
+
+.footer2 {
+    margin-left: 40px;
+}
+
+.Contact1 {
+    margin-top: 80px;
+    color: #fff;
+}
+
+.Contact1 p {
+    color: gray;
+}
+
+.Contact1 p :hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nomre {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nomre :hover {
+    font-size: 20px;
+    color: rgb(189, 22, 189);
+}
+
+.follow h4 {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.pages {
+    margin-top: 80px;
+    font-size: 16px;
+    color: gray;
+    text-decoration: none;
+    position: relative;
+}
+
+.pages :hover {
+    color: #fff;
+}
+
+.footer-left {
+    border-top: 1px solid red;
+    padding-top: 40px;
+    margin-block: 40px;
+    color: #fff;
+}
+
+/* Start Media Query */
+@media (max-width:799px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0px;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #e3e6f3;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #header {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i {
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    #close {
+        display: inline;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+
+    #lg-bag {
+        display: none;
+    }
+
+    #hero{
+        position: relative;
+    }
+
+    .cover{
+    text-align: center;
+    position: absolute;
+    top: 480px;
+    left:90px ;
+
+    }
+
+    .fotosmoking{
+        width:40wh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 300px;
+        left: 0;
+        right: 0;
+        
+    }
+
+    #product1 .pro-container{
+        
+    }
+    
+}
